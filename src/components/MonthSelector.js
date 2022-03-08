@@ -36,7 +36,7 @@ const MonthSelector = ({ activeDate, maximumDate, minimumDate, onMonthSelect, is
           className={`Calendar__monthSelectorItem ${isSelected ? '-active' : ''}`}
         >
           <button
-            tabIndex={isSelected && isOpen ? '0' : '-1'}
+            tabIndex={isSelected && isOpen ? '0' : '0'}
             onClick={() => {
               onMonthSelect(monthNumber);
             }}
