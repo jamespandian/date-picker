@@ -214,7 +214,7 @@ const DaysList = ({
     });
     return (
       <div
-        tabIndex={shouldEnableKeyboardNavigation ? '0' : '-1'}
+        tabIndex={shouldEnableKeyboardNavigation ? '0' : '0'}
         key={id}
         className={`Calendar__day -${isRtl ? 'rtl' : 'ltr'} ${additionalClass}`}
         onClick={() => {
